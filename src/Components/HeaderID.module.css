@@ -1,0 +1,78 @@
+#myImage{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+}
+#navMenu{
+    cursor: pointer;
+    position: fixed;
+    left: .5%;
+    top: 1%;
+    padding: 1%;
+    background-color: white;
+    z-index: 1;
+}
+#navMenuClose{
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    padding: 1%;
+}
+#html{
+    bottom: 0%;
+    left: 0%;
+}
+#css{
+    bottom: 10%;
+    left: 10%;
+}
+#javascript{
+    bottom: 20%;
+    left: 20%;
+}
+#nodejs{
+    bottom: 30%;
+    left: 30%;
+}
+#java{
+    bottom: 40%;
+    left: 40%;
+}
+#react{
+    bottom: 50%;
+    left: 50%;
+}
+#sql{
+    bottom: 60%;
+    left: 60%;
+}
+#linux{
+    bottom: 70%;
+    left: 70%;
+}
+#webDev{
+    padding: 1px;
+    bottom: 80%;
+    left: 80%;
+}
+#arrow1{
+    top: 80%;
+    left: 40%;
+}
+#arrow2{
+    top: 60%;
+    left: 60%;
+}
+#arrow3{
+    top: 40%;
+    left: 80%;
+}
+#arrow4{
+    top: 20%;
+    left: 97%;
+}
+#arrow5{
+    top: 95%;
+    left: 25%;
+}

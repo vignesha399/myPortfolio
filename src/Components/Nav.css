@@ -1,0 +1,228 @@
+li{
+    list-style-type: none;
+}
+#navMenu{
+    cursor: pointer;
+    position: fixed;
+    left: .5%;
+    top: 1%;
+    padding: 1%;
+    z-index: 3;
+}
+#navMenuClose{
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    padding: 1%;
+}
+.vUl{
+    width: 100%;
+    padding: 10%;
+}
+.hdiv{
+    border-bottom: 1px solid lightslategray;
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 50px;
+    right: 0;
+    justify-content: flex-end;
+}
+
+.nav{
+    position: absolute;
+    height: 0px;
+    top: 50%;
+    right: 60%;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    z-index: 2;
+}
+.nav:hover{
+    position: absolute;
+    height: max-content;
+    top: 50%;
+    right: 60%;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+}
+.navLI{
+    border-bottom: .3px solid rgb(219, 206, 206) ;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    list-style: none;
+    padding: 7%;
+    margin: 5%;
+}
+.education{
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 10%;
+    position: relative;
+    left: -0%;
+    display: flex;
+    transform: translate(-0%);
+}
+li{
+    padding: 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: crimson;
+    text-underline-offset: 25%;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    text-underline-offset: 25%;
+
+}
+.horizontalNavBar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: white;
+    z-index: 2;
+}
+.contactMe1{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    display: contents;
+    color: green;
+    background-color: yellow;
+    z-index: 2;
+}
+.contactMe:hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: contents;
+    color: green;
+    background-color: yellow;
+    z-index: 2;
+}
+.contact{
+    margin: 10px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: max-content;
+    cursor: pointer;
+}
+
+.project{
+    top: 100%;
+    left: 0 ;
+    color: black;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+.project:hover{
+    top: 60%;
+    left: 0;
+    color: black;
+    text-decoration: underline;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.dropdown{
+    position: absolute;
+    width: 150px;
+    top: -15px;
+    left: 21px;
+    background-color: white;
+}
+.project:hover .dropdown:hover{
+    position: absolute;
+    width: 150px;
+    top: -10px;
+}
+.details{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    opacity: .8;
+    z-index: 2;
+}
+.detailDiv{
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 4px 7px 5px lightcoral;
+    opacity: unset;
+    background-color: white;
+     opacity: 1;
+    z-index: 2;
+}
+.detail{
+    z-index: inherit;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+.detail a{
+    z-index: inherit;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+.crossMarkDiv{
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: 20px;
+    opacity: 1;
+    top: 0;
+    right: 0;
+}
+.crossMark{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media only screen and (max-width: 650px) {
+    .horizontalNavBar{
+        display:none;
+    }
+}

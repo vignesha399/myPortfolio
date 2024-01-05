@@ -1,0 +1,15 @@
+
+.navDiv{
+    position: fixed;
+    padding: 2%;
+    top:0%;
+    left: -550px;
+    display: flex;
+    text-wrap: wrap;
+    min-width: 300px;
+    max-width: 25%;
+    background-color: rgb(105, 236, 206);
+    height: 100vH;
+    z-index: 3;
+    transition: .5s ease-in-out;
+}
